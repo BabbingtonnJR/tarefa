@@ -21,6 +21,5 @@ while (operacao) != 5:
     elif operacao > 5:
         print('\nEscolha uma das opções validas\n')
     elif operacao == 5:
+        print('Você saiu da calculadora')
         break
-else:
-    print(f'Você saiu da calculadora')
