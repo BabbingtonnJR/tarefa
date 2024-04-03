@@ -1,5 +1,5 @@
 operacao = int()
-while (operacao) != 5:
+while True:
     print(f'1:SOMA\n2:SUBTRAÇÃO\n3:MULTIPLICAÇÃO\n4:DIVISÃO\n5:SAIR')
     operacao = int(input('Escolha a operação matemática: '))
     if operacao == 5:
