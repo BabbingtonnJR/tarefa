@@ -5,6 +5,9 @@ while (operacao) != 5:
     if operacao == 5:
         print(f'Você saiu da calculadora!')
         break
+    elif operacao > 5:
+        print('\nEscolha uma das opções validas\n')
+        continue
     num1 = float(input('Digite um número: '))
     num2 = float(input('Digite um segundo número: ')) 
     if operacao == 1:
@@ -15,6 +18,3 @@ while (operacao) != 5:
         print(f'\nO resultado da operação é:\n {num1} * {num2} = {num1 * num2}\n\n')
     elif operacao == 4:
         print(f'\nO resultado da operação é:\n {num1} / {num2} = {num1 / num2}\n\n')
-    elif operacao > 5:
-        print('\nEscolha uma das opções validas\n')
-        continue
