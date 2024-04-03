@@ -5,7 +5,7 @@ while (operacao) != 5:
     if operacao == 5:
         print(f'Você saiu da calculadora!')
         break
-    elif operacao > 5:
+    elif operacao > 5 or operacao <= 0:
         print('\nEscolha uma das opções validas\n')
         continue
     num1 = float(input('Digite um número: '))
